@@ -1,0 +1,15 @@
+// testing square of numbers
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main () 
+{ 
+  int num;
+  cout <<"Enter an integer value: ";
+  cin >> num;
+  cout << "You entered," <<num <<endl;
+  cout << "The square of " <<num <<" is " << square(num);
+  return 0;
+}
+  
